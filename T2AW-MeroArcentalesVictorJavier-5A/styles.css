@@ -1,0 +1,117 @@
+fieldset{ /* Se define el estilo de fieldset para establecer su posicion y colores dentro de él*/
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    background-color: rgba(9, 204, 204, 0.681);
+    border: 4px solid black;
+    border-radius: 15px;
+}
+
+body{ /* Se establece el color de fondo dentro del body */
+    background-color:  rgb(0, 156, 192);
+}
+
+/* Se establecen colores y tamaño de los textos utilizados*/
+
+.texto h1, p, h2, table, ul{ 
+    text-align: justify; /* Justifica los textos */
+    margin-top: 20px; 
+    padding: 0 50px;
+    color: white; /* Establece el color */
+    text-shadow: 1.4px 1px 2px #000; /* Establece la sombra */
+}
+
+.texto h1{ /* Establece el borde de los textos h1 */
+    -webkit-text-stroke-width: 0.8px;
+    -moz-text-stroke-width: 0.5px;
+    text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+    -moz-text-stroke-color: #000;
+    text-stroke-color: #000;
+}
+
+.texto h2{ /* Establece el borde de los textos h2 */
+    -webkit-text-stroke-width: 0.45px;
+    -moz-text-stroke-width: 0.5px;
+    text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #000;
+    -moz-text-stroke-color: #000;
+    text-stroke-color: #000;
+}
+
+.texto p, li, table{ /* Establece el borde de los textos p, li y table */
+    -webkit-text-stroke-width: 0.271px;
+    -moz-text-stroke-width: 0.2px;
+    text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+    -moz-text-stroke-color: #000;
+    text-stroke-color: #000;
+}
+
+.texto li{ /* Establece la posición y justifica los textos dentro de las listas */
+    text-align: justify;
+    margin-top: 20px;
+    padding: 0 0px;
+}
+
+.texto ul{ /* Establece la posición de la lista desordenada*/
+    padding: 0 65px;
+}
+
+.datos h1{ /* Establece la posición y el tamaño de h1 */
+    text-align: center;
+    font-size: 40px;
+}
+
+.texto h2{ /* Establece el tamaño de h2 */
+    font-size: 27px;
+}
+
+.datos p{ /* Establece el tamaño de p */
+    font-size: 18px;
+}
+
+.estudios li{ /* Establece el tamaño de la lista en .estudios */
+    font-size: 17.5px;
+}
+
+.capacitacion li{ /* Establece el tamaño de la lista en .capacitación */
+    font-size: 17.5px;
+}
+
+.texto h1{
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+.texto h2{
+    text-align: justify;
+    margin-top: auto;
+    padding: 0 50px;
+}
+
+/* Fin de edición de textos */
+
+.datos img{ /* Se establece el tamaño, borde y posición de la imagén*/
+    width: 130px;
+    height: auto;
+    padding: 0 0;
+    float: right;
+    border: 3px solid black;
+    border-radius: 20%;
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+
+.tabla caption{ /* Se establece la posición de la tabla*/
+    text-align: justify;
+    margin-left: -50px;
+}
+
+.tabla table, th, td{ /* Se establecen el tamaño y colores de los textos dentro de la tabla */
+    margin-left: 50px;
+    padding: 0 25px;
+    border: 2px solid whitesmoke;
+    border-collapse: collapse;
+}
